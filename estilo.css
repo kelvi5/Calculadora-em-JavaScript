@@ -1,0 +1,80 @@
+#corpo{
+    background:url('fundo3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div{
+    border: 1pt black solid;
+    margin: auto;
+    width: 600px;
+    background: rgb(40, 70, 71);
+    opacity: .8;
+    padding-top: 10px;
+    border-radius: 20%;
+}
+
+table{
+    position: center;
+    margin: auto;
+    padding: 18px;
+    border-color: black;
+    border: 1px;
+}
+#texto{
+    background: rgb(255, 255, 255);
+    margin-left: 150px;
+    padding: 20px 70px;
+    text-align: center;
+    font: arial;
+    border-radius: 25%;
+}
+
+td{
+    /*padding: 50px;*/
+}
+
+button:hover{
+    background: rgb(85, 93, 207);
+    color: white;
+}
+
+#dividir, #multiplicar, #diminuir, #somar{
+    padding: 20px 20px;    
+}
+
+#zero{
+    padding: 20px 30px;
+}
+
+#limpar{
+    padding: 20px 27px;
+}
+
+#enviar{
+    padding: 20px 28px;
+}
+
+#nove, #seis, #um{
+    padding: 20px 38px;
+}
+
+#oito, #cinco, #dois{
+    padding: 20px 38px;
+}
+
+#sete, #quatro, #tres{
+    padding: 20px 37px;
+}
+
+button{
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 70%;
+    width: 110px;
+    height: 100px;
+}

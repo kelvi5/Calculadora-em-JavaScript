@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" >
+</head>
+<body id="corpo">
+    <div name="divisao">
+    <input type="text" placeholder="Não faça divisão por 0" id="texto" name="texto">
+    <table id="tabela">
+        <tr id="primeiro">
+            <td><button id="dividir" value="3" onclick="func(3)">Dividir (/)</button></td>
+            <td><button id="multiplicar" value="4" onclick="func(4)" >Multiplicar (x)</button></td>
+            <td><button id="diminuir" value="2" onclick="func(2)"> Diminuir (-)</button></td>
+            <td><button id="somar" value="1" onclick="func(1)">Somar (+)</button></td>
+        </tr>
+        <tr id="segundo">
+            <td><button id="nove" onclick="clicou(9)">9</button></td>
+            <td><button id="oito" onclick="clicou(8)">8</button></td>
+            <td><button id="sete" onclick="clicou(7)">7</button></td>
+            <td><button id="zero" onclick="clicou(0)">0</button></td>
+        </tr>
+        <tr id="terceiro">
+            <td><button id="seis" onclick="clicou(6)">6</button></td>
+            <td><button id="cinco" onclick="clicou(5)">5</button></td>
+            <td><button id="quatro" onclick="clicou(4)">4</button></td>
+            <Td><button id="limpar" onclick="limpar()">Limpar</button></Td>
+        </tr>
+        <tr id="quarto">
+            <td><button id="um" onclick="clicou(1)">1</button></td>
+            <td><button id="dois" onclick="clicou(2)">2</button></td>
+            <td><button id="tres" onclick="clicou(3)">3</button></td>
+            <td><button id="enviar" onclick="enviar()">Enviar</button></td>
+        </tr>
+    </table>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
